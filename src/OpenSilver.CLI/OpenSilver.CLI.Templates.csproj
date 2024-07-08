@@ -12,13 +12,13 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>2.2.0</PackageVersion>
+    <PackageVersion>3.0.0.1</PackageVersion>
     <PackageId>OpenSilver.Templates</PackageId>
     <Title>Opensilver CLI templates</Title>
     <Authors>Userware</Authors>
-    <Description>Project Template that creates new OpenSilver projects from the .net CLI.</Description>
+    <Description>A collection of project Template that creates new OpenSilver projects from the .net CLI.</Description>
     <PackageTags>opensilver;xml,html,xaml,c#,vb,uwp</PackageTags>
-    <PackageCopyright>Copyright (c) 2023 Userware</PackageCopyright>
+    <PackageCopyright>Copyright (c) 2024 Userware</PackageCopyright>
     <PackageIcon>icon.png</PackageIcon>
     <PackageProjectUrl>https://github.com/OpenSilver</PackageProjectUrl>
   </PropertyGroup>
@@ -34,18 +34,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="C#\OpenSilverBusinessApplication\.vscode\launch.json">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Update="F#\OpenSilverApplication\.vscode\launch.json">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Update="VB\OpenSilverApplication\.vscode\launch.json">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Update="VB\OpenSilverBusinessApplication\.vscode\launch.json">
-      <SubType>Code</SubType>
-    </Content>
+    <Folder Include="C#\OpenSilverApplication\.vscode\" />
+    <Folder Include="C#\OpenSilverBusinessApplication\.vscode\" />
+    <Folder Include="F#\OpenSilverApplication\.vscode\" />
+    <Folder Include="VB\OpenSilverApplication\.vscode\" />
+    <Folder Include="VB\OpenSilverBusinessApplication\.vscode\" />
   </ItemGroup>
 
 </Project>

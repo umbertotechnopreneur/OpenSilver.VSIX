@@ -4,7 +4,7 @@
   "classifications": [ "Web", "Desktop", "OpenSilver", "Xaml", "C#" ],
   "identity": "OpensilverApplicationCS",
   "groupIdentity": "OpenSilverApplication",
-  "name": "Opensilver web application",
+  "name": "OpenSilver Application",
   "shortName": "opensilverapp",
   "sourceName": "OpenSilverApplication",
   "tags": {

@@ -4,7 +4,7 @@
   "classifications": [ "Web", "Desktop", "OpenSilver", "Xaml", "C#", "OpenRia" ],
   "identity": "OpensilverBusinessApplicationCS",
   "groupIdentity": "OpenSilverBusinessApplication",
-  "name": "Opensilver business (Ria Services) web application",
+  "name": "Opensilver business (RIA Services) web application",
   "shortName": "opensilverbusinessapp",
   "sourceName": "OpenSilverBusinessApplication",
   "tags": {
